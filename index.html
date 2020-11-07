@@ -2,53 +2,84 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="robots" content="index">
-	<meta name="description" content="Сайт о моих достижениях в программировании и верстке сайтов.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="">
 	<meta name="keywords" content="Front-End,сайт,блог,мои достижения в программировании,artem-009.github.io,artem-009,artem-009 github,artem-009 github.io">
 	<meta name="author" content="Artem Larchenko">
-	<title>Artem</title>
+	<title>Главная</title>
 	<link rel="icon" href="favicon.png" type="image/png">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">Artem Larchenko</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Главная</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.weblancer.net/users/Artem-009/" target="_blank">Я на Weblancer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.weblancer.net/users/Artem-009/" target="_blank">Заказать одностраничный сайт почти даром</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+
+
+	<section class="me">
+		<h1 class="me-Name">Artem Larchenko</h1>
+		<h5><cite>Like the front-end</cite></h5>
+	</section>
+
+
+	<section class="aboutMe">
+		<h1 class="aboutMe-title">About me</h1>
+		<p class="aboutMe-text">Привет! Меня зовут Артем, мне 16 лет. <br>
+			Мне нравится программирование <br> <cite>но пока больше всего нравится создание сайтов (Front-End), до бекенда еще не добрался...</cite> 
+			<br><br>
+		Пока что я знаю:
+			
+					<li class="aboutMe-list">HTML</li>
+					<li class="aboutMe-list">CSS</li>
+					<li class="aboutMe-list">JavaScript <cite>(изучаю)</cite></li>
+					<li class="aboutMe-list">Node.js <cite>(а с тебя то все и началось......)</cite></li>
+					<li class="aboutMe-list">Python <cite>(изучаю)</cite></li>
+					<li class="aboutMe-list">С++ <cite>(основы)</cite></li></p>
+
+					<p class="aboutMe-text2">
+						Но то что я знаю, этого не хватает! Поэтому вот список "что я умею": <br>
+						<br><br><br><br><br> Если же просто то - что нравится, то и делаю. <br>Ну и мне кажется что так у всех... <span style="opacity: .2;">а может и нет</span>
+
+						<li class="aboutMe-list2">Делать сайты (Front-End) <cite><span style="background-color: #66DDAA;font-size: 12px;">опять же - учусь это делать...</span></cite></li>
+						<li class="aboutMe-list2">Делать ботов для <cite>Discord</cite> на Node.js</li>
+						<li class="aboutMe-list2">Делать ботов на Python'e для <cite>Telegram</cite> <span style="background-color: yellow;font-size: 10px;">по крайней мере учился их делать...</span></li>
+					</p>
 	
-<div class="container">
-	
-	<div class="menu index">
-		<div class="menu__title">
-			<p>Меню сайта</p>
-		</div>
-		<ul class="menu__list">
+		</section>
 
-		<li class="menu__list-item">
-			<a class="menu__list-link" href="category/page-javascript.html">JavaScript</a>
-		</li>
-		<li class="menu__list-item">
-			<a class="menu__list-link" href="category/page-python.html">Python</a>
-		</li>
-		</ul>
 
-	</div>
-
-	<div class="intro">
-		<h2>Привет, меня зовут Артем, мне 16 лет, я из Украины и мне нравится создавать сайты (Front-End), сейчас я учусь только их делать, потому что я плохо их делаю :(</h2>
-		<h2>Также мне нравится немного программирование...</h2>
-		<h2>На этом сайте я буду показывать разные мои проекты, наверняка они пока "маленькие".</h2>
-	</div>
-
-	<div class="content">
-
-		<!-- тут что-то будет ... -->
-
-		</div>
-	</div>
 
 <footer class="footer">
-	<p class="rights">
-		&copy 2020 Сайт создал Артем Ларченко
-	</p>
+
+	<h3 style="padding-top: 15px;" align="center">&copy Copyright 2020 Artem Larchenko</h3>
+
 </footer>
 
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
