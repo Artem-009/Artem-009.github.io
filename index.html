@@ -1,85 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<meta name="robots" content="index, follow">
-	<meta name="description" content="">
-	<meta name="keywords" content="Front-End,сайт,блог,мои достижения в программировании,artem-009.github.io,artem-009,artem-009 github,artem-009 github.io">
-	<meta name="author" content="Artem Larchenko">
-	<title>Главная</title>
-	<link rel="icon" href="favicon.png" type="image/png">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="">
+    <meta name="keywords" content="Front-End,сайт,блог,artem-009.github.io,artem-009,artem-009 github,artem-009 github.io">
+    <meta name="author" content="Artem Larchenko">
+    <title>Главная</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="/" class="navbar-brand">Artem Larchenko</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Главная</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="tg://resolve?domain=artem_larch_official">Telegram</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://discord.com/invite/hGYD3bdu28" target="_blank">Discord</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#skills">Навыки и умения</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">Обо мне</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Портфолио</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <p class="fs-1 text-center mt-5">Добро пожаловать!</p>
+        <p class="text-center text-break">Меня зовут Артём, мне нравится <span class="fst-italic">Front-End</span>.</p>
+        <p class="text-center">Этот сайт сделан на <a class="text-muted" href="https://tinyurl.com/sbecdzjy" target="_blank">CSS фреймворк</a>е <a class="text-muted" href="https://getbootstrap.com/" target="_blank">Bootstrap</a> v5.0</p>
+        <img class="img-fluid rounded-3" src="images/welcome-img.png" alt="">
 
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-  <a class="navbar-brand" href="/">Artem Larchenko</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+        <section class="about_me" id="about">
+          <h2 class="text-center fst-italic">About.</h2>
+          <p class="text-center">В этой секции вы сможете узнать что-то обо мне ._.</p>
+          <p class="mt-5">
+            Как вы уже догадались, меня зовут Артём. Мне 16 лет и я из Украины. Да уж... из меня историк или как-там не очень :\ <br>
+            Так вот, идем дальше... Что мне нравится? Мне нравится (на данный момент) создание сайтов, а именно верстка сайтов. Или же
+            другими словами Front-End (фронт-энд). Может когда-то... Да.. я хотел начать учить PHP, когда-то я все таки до него доберусь ...
+            Но не сейчас. <br> Так-с... что же еще сказать. Вроде бы все. Ладно, идите дальше смотреть этот сайт =)<br>Если еще что-то
+            будет - допишу. Так что ты это, заходи еще ;) <br>
+          </p>
+        </section>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Главная</a>
-      </li>
-      <!-- <li class="nav-item"> -->
-        <!-- <a class="nav-link" href="https://www.weblancer.net/users/Artem-009/" target="_blank">Я на Weblancer</a> -->
-      <!-- </li> -->
-      <!-- <li class="nav-item"> -->
-        <!-- <a class="nav-link" href="https://www.weblancer.net/users/Artem-009/" target="_blank">Заказать одностраничный сайт почти даром</a> -->
-      <!-- </li> -->
+        <section class="questions" id="faq">
+          <p class="fs-1 mt-5 text-center">Часто задаваемые вопросы (FAQ)</p>
+        <div class="accordion mt-5" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-controls="collapseOne">
+                Что это за сайт? Для чего он?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Этот сайт я создал просто. Просто хотел попробовать что-то сделать на css сетке bootstrap ...
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                На нём что-то будет?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Я даже не знаю. Честно. Может что-то буду сюда добавлять, а может нет. Пока что этот сайт, мини-портфолио
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    </ul>
-  </div>
-</nav>
+      <section class="skills mt-5" id="skills">
+        <h2 class="fst-italic text-center">Навыки и умения.</h2>
+        <p class="text-center">В этой секции можно узнать что я знаю</p>
+        <div>
+          <ul class="list-group d-inline-block list_left">
+            <span class="fw-bold">Я знаю...</span>
+            <li class="list-group-item">HTML</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">Node.js (фреймворк JavaScript)</li>
+            <li class="list-group-item">Python</li>
+            <li class="list-group-item">C++ (основы)</li>
+            <li class="list-group-item">Bootstrap <small style="opacity: 0.4">(начал изучать)</small></li>
+          </ul>
+          
+          <ul class="list-group d-inline-block list_right pt-3">
+            <span class="fw-bold">Я умею...</span>
+            <li class="list-group-item">Делать визитки</li>
+            <li class="list-group-item">Делать <a class="text-muted" href="https://tinyurl.com/3hb8nj5f" target="_blank">landing-page</a> сайты</li>
+            <li class="list-group-item">Делать ботов для Discord на Node.js</li>
+          </ul>
+
+        </div>
+      </section>
+      
+
+      <div class="alert alert-info mt-5" role="alert">
+        На этом сайте <b>не</b> используются cookies. А зачем они тут? Не надо.
+      </div>
 
 
+    </div>
 
-	<section class="me">
-		<h1 class="me-Name">Artem Larchenko</h1>
-		<h5><cite>Like the front-end</cite></h5>
-	</section>
-
-
-	<section class="aboutMe">
-		<h1 class="aboutMe-title">About me</h1>
-		<p class="aboutMe-text">Привет! Меня зовут Артем, мне 16 лет. <br>
-			Мне нравится программирование <br> <cite>но пока больше всего нравится создание сайтов (Front-End), до бекенда еще не добрался...</cite> 
-			<br><br>
-		Пока что я знаю:
-			
-					<li class="aboutMe-list">HTML</li>
-					<li class="aboutMe-list">CSS</li>
-					<li class="aboutMe-list">JavaScript <cite>(изучаю)</cite></li>
-					<li class="aboutMe-list">Node.js <cite>(а с тебя то все и началось......)</cite></li>
-					<li class="aboutMe-list">Python <cite>(изучаю)</cite></li>
-					<li class="aboutMe-list">С++ <cite>(основы)</cite></li></p>
-
-					<p class="aboutMe-text2">
-						Но то что я знаю, этого не хватает! Поэтому вот список "что я умею": <br>
-						<br><br><br><br><br> Если же просто то - что нравится, то и делаю. <br>Ну и мне кажется что так у всех... <span style="opacity: .2;">а может и нет</span>
-
-						<li class="aboutMe-list2">Делать сайты (Front-End) <cite><span style="background-color: #66DDAA;font-size: 12px;">опять же - учусь это делать...</span></cite></li>
-						<li class="aboutMe-list2">Делать ботов для <cite>Discord</cite> на Node.js</li>
-						<li class="aboutMe-list2">Делать ботов на Python'e для <cite>Telegram</cite> <span style="background-color: yellow;font-size: 10px;">по крайней мере учился их делать...</span></li>
-					</p>
-	
-		</section>
+    <footer class="footer mt-5 bg-dark p-1">
+      <div class="container">
+        <p class="text-muted fs-4 text-center mt-2">&copy 2020-2021 | Copyright by Artem_larch</p>
+      </div>
+    </footer>
 
 
-
-<footer class="footer">
-
-	<h3 style="padding-top: 15px;" align="center">&copy Copyright 2020 Artem Larchenko</h3>
-
-</footer>
-
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
