@@ -1,0 +1,28 @@
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Напишіть повідомлення</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <form id="contact-form" method="POST">
+                    <input id="date" name="date" hidden aria-hidden="true">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Як до Вас звертатись?</label>
+                        <input type="text" class="form-control" id="name" name="name" required placeholder="Ім'я">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Ваш email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Повідомлення</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100" id="formButton">Надіслати</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
